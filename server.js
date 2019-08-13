@@ -12,8 +12,8 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 app.use(express.static("app/public"));
 
-require("./app/routing/apiroutes")(app);
-require("./app/routing/htmlroutes")(app);
+require("./app/routing/apiroutes.js")(app);
+require("./app/routing/htmlroutes.js")(app);
 
 app.listen(port, function() {
   console.log("FriendFinder listening on PORT " + port);
