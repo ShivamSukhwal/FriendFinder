@@ -10,8 +10,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.static("app/public"));
 
-require("./app/routing/api-routes")(app);
-require("./app/routing/html-routes")(app);
+require("./app/routing/apiroutes")(app);
+require("./app/routing/htmlroutes")(app);
 
 app.listen(port, function() {
   console.log("FriendFinder listening on PORT " + port);
