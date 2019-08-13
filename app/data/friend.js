@@ -7,27 +7,27 @@ var friends = [
   {
     name: "Joe",
     photo: "",
-    score: [5, 4, 3, 2, 1, 1, 2, 3, 4, 5]
+    score: [5, 5, 3, 2, 1, 1, 2, 5, 5, 5]
   },
   {
     name: "Eric",
     photo: "",
-    score: [2, 2, 3, 3, 2, 2, 2, 3, 4, 4]
+    score: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
   },
   {
     name: "Cartman",
     photo: "",
-    score: [1, 2, 3, 4, 5, 6, 7, 8, 9, 2]
+    score: [3, 3, 3, 3, 3, 3, 3, 3, 3, 1]
   },
   {
     name: "Jacob",
     photo: "",
-    score: [3, 3, 2, 1, 5, 1, 1, 2, 3, 4]
+    score: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
   },
   {
     name: "Shelly",
     photo: "",
-    score: [4, 1, 3, 5, 2, 2, 1, 4, 4, 5]
+    score: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
   },
   {
     name: "Donna",
